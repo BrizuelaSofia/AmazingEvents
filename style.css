@@ -1,0 +1,175 @@
+header {
+    height: 5vh;
+
+}
+
+.fondo {
+    background-image: url(./Images/confetifondo1.gif);
+}
+
+.menuburguer {
+    color: rgb(183, 22, 81);
+    background-color: rgb(183, 22, 81);
+}
+
+
+.boton {
+    background-color: rgb(183, 22, 81);
+    margin-left: 1rem;
+    border-radius: 5px;
+
+
+}
+
+.boton:hover {
+    background-color: rgb(177, 128, 144);
+    ;
+}
+
+.icon {
+
+    font-size: 2.5rem;
+    padding-left: 1rem;
+
+
+}
+
+.tdajuste {
+    width: 20rem;
+
+}
+
+table,
+td {
+
+    background-color: rgb(177, 128, 144);
+    border: 1px solid white;
+}
+
+
+
+thead {
+    background-color: rgb(183, 22, 81);
+    border: 3px solid rgb(177, 128, 144);
+    color: white;
+
+}
+
+
+
+.centrarhome {
+    padding-left: 30rem;
+}
+
+h3 {
+    background-color: rgb(183, 22, 81);
+    border-radius: 50%;
+    font-family: Arial, 'Helvetica', sans-serif;
+    color: white;
+}
+
+.mayor {
+    padding-left: 5rem;
+}
+
+.menor {
+
+    padding-left: 14rem;
+
+}
+
+.titulo {
+    padding-right: 19rem;
+
+
+}
+
+main {
+    min-height: 86vh;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.centrar {
+    background-image: url(./Images/confetifondo1.gif);
+    padding-top: 1rem;
+}
+
+.checks {
+    padding-left: .5rem;
+    color: white;
+}
+
+
+
+
+.margin {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.card {
+    height: 25rem;
+    margin: 10px;
+    background-color: rgb(214, 115, 148);
+
+
+}
+
+
+.imagecard {
+    object-fit: cover;
+
+
+}
+
+.imagen {
+    object-fit: cover;
+
+}
+
+
+.card-body {
+    color: rgb(255, 255, 255);
+
+}
+
+.g-4 {
+    width: 45rem;
+    background-color: rgb(214, 115, 148);
+    border-radius: 10px;
+}
+
+.rounded-start {
+    padding-bottom: 1.5rem;
+
+
+
+}
+
+.image {
+    width: 290px;
+    height: 170px;
+
+}
+
+
+footer {
+    height: 9vh;
+    background-image: url(./Images/confetifondo1.gif);
+
+}
+
+
+h4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, 'Helvetica', sans-serif;
+
+
+
+}
