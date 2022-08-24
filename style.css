@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
 header {
     height: 5vh;
 
@@ -6,15 +10,27 @@ header {
 .fondo {
     background-image: url(./Images/confetifondo1.gif);
 }
+.navbar-nav{font-family: Zen Loop,cursive;
+font-size: 1.5rem;
+font-weight: bold;
+}
 
 .menuburguer {
     color: rgb(183, 22, 81);
     background-color: rgb(183, 22, 81);
 }
+.dropdown-item{
+    font-weight: bold;
+    color: black;
+}
+.dropdown-item:hover{
+    background-color: rgba(183, 22, 81, 0.747);
+    color: white;
+}
 
 
 .boton {
-    background-color: rgb(183, 22, 81);
+   
     margin-left: 1rem;
     border-radius: 5px;
 
@@ -22,7 +38,7 @@ header {
 }
 
 .boton:hover {
-    background-color: rgb(177, 128, 144);
+    background-color:  rgba(183, 22, 81, 0.534);
     ;
 }
 
@@ -36,36 +52,58 @@ header {
 
 .tdajuste {
     width: 20rem;
+    color: rgb(255, 255, 255) !important;
+  
+
 
 }
 
 table,
 td {
 
-    background-color: rgb(177, 128, 144);
+    background-color: rgba(177, 128, 144, 0.712);
     border: 1px solid white;
+    font-family: Zen Loop,cursive;
+    color: white;
+    font-weight: bold;font-size: 1.3rem;
+    letter-spacing: .1rem;
+
+}
+th{
+    color: #fff;
+    font-family: Kaushan Script,cursive;
+    font-weight: bold;
+    text-shadow: 0  4px rgb(8, 2, 5);  
 }
 
 
 
 thead {
-    background-color: rgb(183, 22, 81);
+    background-color: rgba(183, 22, 81, 0.897);
     border: 3px solid rgb(177, 128, 144);
     color: white;
 
 }
 
-
-
-.centrarhome {
-    padding-left: 30rem;
+.rounded-start {
+     padding-bottom:0 !important
+}
+.rounded-start {
+    border-bottom-left-radius: 0.25rem!important;
+ border-top-left-radius: 0rem !important
 }
 
+
 h3 {
-    background-color: rgb(183, 22, 81);
-    border-radius: 50%;
-    font-family: Arial, 'Helvetica', sans-serif;
-    color: white;
+    
+    color: #fff;
+    font-family: Kaushan Script,cursive;
+    letter-spacing: .3rem;
+    font-weight: bold;
+    text-shadow: 0  6px rgb(172, 15, 88);
+  
+   
+   
 }
 
 .mayor {
@@ -99,6 +137,10 @@ main {
 .checks {
     padding-left: .5rem;
     color: white;
+    font-family: Zen Loop,cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
 }
 
 
@@ -106,22 +148,40 @@ main {
 
 .margin {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Zen Loop,cursive;
+    font-weight: bold;
+    
 
 
+}
+
+.marginn{
+    background-color: rgb(228, 201, 210);
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .card {
     height: 25rem;
     margin: 10px;
-    background-color: rgb(214, 115, 148);
+    background-color: rgb(228, 201, 210);
+    border-radius: 10px;
 
 
 }
-
-
 .imagecard {
     object-fit: cover;
+    border-radius: 20px !important;
+    /* margin-bottom: 1.3rem; */
+    padding: 0.5rem;
+
+}
+.imagecard-detail {
+    object-fit: cover;
+    border-radius: 20px !important;
+    margin-bottom: 1.3rem;
 
 
 }
@@ -134,12 +194,48 @@ main {
 
 .card-body {
     color: rgb(255, 255, 255);
+    background-color:rgb(172, 15, 88);
+    border-radius:10px;
+    margin:.5rem;
+    border-radius: 10px;
+    height: 1rem;
 
+
+}
+.card-body-detail {
+    color: rgb(255, 255, 255);
+    background-color: rgb(172, 15, 88);
+    border-radius: 10px;
+    margin: 0px 0px 1rem;
+    border-radius: 10px;
+    text-align: start;
+    padding: 1rem;
+    font-family: Zen Loop,cursive;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    
+}
+/* .card-text-detail{
+    
+} */
+
+.card-title{
+    font-family: Kaushan Script,cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 30px rgb(221, 127, 185);
+}
+.card-text{
+    text-align: start;
+    height: 4rem;
+    font-family: Zen Loop,cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .g-4 {
     width: 45rem;
-    background-color: rgb(214, 115, 148);
+    background-color: rgb(228, 201, 210);
     border-radius: 10px;
 }
 
@@ -147,6 +243,13 @@ main {
     padding-bottom: 1.5rem;
 
 
+
+}
+.form-label{
+    font-family: Zen Loop,cursive;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgb(221, 127, 185);
 
 }
 

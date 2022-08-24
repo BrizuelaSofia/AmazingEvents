@@ -24,7 +24,7 @@ async function getData() {
                <div class="card-body">
                  <h5 class="card-title">${data.name}</h5>
                  <p class="card-text pb-3">${data.description}</p>
-                 <p class="margin" >$ ${data.price} <a href="./details.html?id=${data._id}"" style="color:rgb(172, 15, 88)" class="btn-outline-dark btn margin" >Detail</a></p>
+                 <p class="margin" >$ ${data.price} <a href="./details.html?id=${data._id}"" style="color:rgb(172, 15, 88)" class="btn-outline-dark btn marginn" >Detail</a></p>
                  <p>${data.date}</p>
                </div>
              </div>
