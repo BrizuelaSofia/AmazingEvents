@@ -20,17 +20,30 @@ async function getData() {
         if (data.date > fechaActual) {
           templateHtml += 
           `
-           <div class= "col 4 d-flex justify-content-center">
-             <div class="card" style="width:20rem; heigth:20rem ">
-               <img src=${data.image}  style="width:auto" class=" image card-img-top imagecard" alt="tarjetas"></img>
-               <div class="card-body">
-                 <h5 class="card-title">${data.name}</h5>
-                 <p class="card-text pb-3">${data.description}</p>
-                 <p class="margin" >$ ${data.price} <a href="./details.html?id=${data._id}"" style="color:rgb(172, 15, 88)" class="btn-outline-dark btn marginn" >Detail</a></p>
-                 <p>${data.date}</p>
-               </div>
-             </div>
-            </div>
+          <div class= "col 4 d-flex justify-content-center">
+          <div class="container ">
+              <div class="card ">
+                  <div class="face face1">
+                      <div class="content">
+                          <div>
+                          <h3 class="h3">
+                              ${data.name}
+                          </h3>
+                          <img src=${data.image}  style="width:46vh" class=" image card-img-top imagecard" alt="tarjetas"></img>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="face face2">
+                      <div class="content">
+                          
+                          <p>${data.description}</p>
+                          <p class="margin" >$ ${data.price} <a href="./details.html?id=${data._id}"" style="color:rgb(172, 15, 88)" class="btn-outline-dark btn marginn" >Detail</a></p>
+                          <p>${data.date}</p>
+                          </div>
+                  </div>
+              </div>
+              </div>
+              </div>
           `
         }
         document.querySelector(".contenedorCards").innerHTML = templateHtml;
